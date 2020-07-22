@@ -1,7 +1,3 @@
-
-char *ft_strstr(char *str, char *to_find);
-int compare(char *str, char *to_find);
-
 int compare(char *str, char *to_find)
 {
     while (*str && *to_find)
@@ -24,4 +20,3 @@ char *ft_strstr(char *str, char *to_find)
     }
     return (0);
 }
-
